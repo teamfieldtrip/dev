@@ -1,0 +1,31 @@
+{
+  "name": "spirithunt-dev",
+  "version": "1.0.0",
+  "description": "Stupid thing that shows how long we haven't failed",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint code.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamfieldtrip/dev.git"
+  },
+  "author": "Roelof Roos <github@roelof.io>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/teamfieldtrip/dev/issues"
+  },
+  "homepage": "https://github.com/teamfieldtrip/dev#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "jquery": "^3.1.1",
+    "jquery-countdown": "^2.2.0"
+  }
+}
